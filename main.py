@@ -13,7 +13,7 @@ try:
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Firefly."
+        password= password
     )
 
     mycursor = db.cursor()

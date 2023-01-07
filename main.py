@@ -341,7 +341,7 @@ if __name__ == '__main__':
 
     while exit is False:
         user = input("Welcome to Firefly Movies! Press any key to continue: ")
-        if user == "1024":
+        if user == "1000":
             exit = developer()
         else:
             print("Initializing. Please wait...")
